@@ -1,6 +1,7 @@
 name: Building & testing Python package using Conda
 
-on: [push]
+on: [push, workflow_dispatch]
+
 
 jobs:
   build-win:
