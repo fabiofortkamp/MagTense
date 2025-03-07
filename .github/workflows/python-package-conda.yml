@@ -2,7 +2,7 @@ name: Building & testing Python package using Conda
 
 on:
   push:
-  workflow_dispath:
+  workflow_dispatch:
     branches:
       - develop
       - bugfix/**
