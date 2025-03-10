@@ -17,8 +17,7 @@ LIBSRC_SOURCES = IOgeneral IntegrationDataTypes quadpack \
 LIBSRC_OBJECTS = $(addsuffix .o, ${LIBSRC_SOURCES})
 
 ifeq ($(OS),Windows_NT)
-	# OPT = -I${CONDA_PREFIX}/opt/compiler/include/intel64
-	OPT = -I${CONDA_PREFIX}\opt\compiler\include\intel64
+	OPT = -I${CONDA_PREFIX}/opt/compiler/include/intel64
 	LIBTOOL = LIB $? /NOLOGO /OUT:$@
 	LIB_SUFFIX = .lib
 	
