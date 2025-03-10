@@ -1,7 +1,7 @@
 #==========================
 # Compiler names and flags
 #==========================
-USE_CUDA = 1
+USE_CUDA = 0
 USE_CVODE = 0
 USE_MICROMAG = 1
 CPP = icx
