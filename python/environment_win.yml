@@ -10,7 +10,6 @@ dependencies:
   - matplotlib
   - meson
   - charset-normalizer
-  - ncurses
   - git
   - notebook
   - h5py
