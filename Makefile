@@ -5,9 +5,9 @@ FC = ifx
 # FC = gfortran
 CPP = icx
 
-USE_CUDA = 1
+USE_CUDA = 0
 USE_CVODE = 0
-USE_MATLAB = 1
+USE_MATLAB = 0
 COMPILE_MICROMAG = 1
 
 CVODE_ROOT= /usr/local/sundials-4.1.0/instdir
